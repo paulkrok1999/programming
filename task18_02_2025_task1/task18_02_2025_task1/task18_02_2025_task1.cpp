@@ -36,8 +36,8 @@ bool isPrime(const int num) {
 void printi_sPrime(const int n, int* arr) {    
     int count = 0;
         for (int i = 0; i < n; i++) {            
-            if (isPrime(arr[i])) {
-               
+            if (isPrime(arr[i])) { 
+
                 cout << "простые: " << arr[i] << '\n';
                 count++;                
             }    
