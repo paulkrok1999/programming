@@ -28,4 +28,4 @@
 
 [04 03 2025 Задание 1](https://github.com/paulkrok1999/programming/tree/main/task04_03_2025_task1)
 
-[03 03 2025 Задание 2](https://github.com/paulkrok1999/programming/tree/main/task04_03_2025_task2)
+[04 03 2025 Задание 2](https://github.com/paulkrok1999/programming/tree/main/task04_03_2025_task2)
