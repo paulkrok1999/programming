@@ -19,7 +19,7 @@
 # Задания за 25 02 2025
 [25 02 2025 Задание 1](https://github.com/paulkrok1999/programming/tree/main/task_25_02_2025_task1)
 
-[25 02 2025 Задание 2](https://github.com/paulkrok1999/programming/tree/main/task25_02_2025_task2)
+[25 02 2025 Задание 2](https://github.com/paulkrok1999/programming/tree/main/task_25_02_2025_task2)
 
 [25 02 2025 Задание 3](https://github.com/paulkrok1999/programming/tree/main/task_25_02_2025_task3
 
