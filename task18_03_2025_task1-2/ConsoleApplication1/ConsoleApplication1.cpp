@@ -143,7 +143,7 @@ void count_words_starting_with( const char* filename) {
             char first_char = tolower(static_cast<unsigned char>(myword[0]));
             if (first_char == target) {
                 count++;
-                cout << "Найдено слово: " << myword << endl;
+                //cout << "Найдено слово: " << myword << endl;
             }
         }
     }
@@ -162,31 +162,31 @@ void write_words(const char* filename, const char* filename2) {
     while (file >> myword) {
         //filter myword
         string cleaned = myword;
-        cout << cleaned << "\n";
+        //cout << cleaned << "\n";
         //условие филтрованного слова на длину
         if (cleaned.length() >= 7){
-            out << cleaned << "\n"; 
-            cout << cleaned << "\n";
+            out << cleaned << "\n";
+            //cout << cleaned << "\n";
 
         }
     }
     file.close();
     out.close();
-    
+
 }
 int main() {
     SetConsoleCP(1251);          // Устанавливаем кодировку ввода CP1251
     SetConsoleOutputCP(1251);    // Устанавливаем кодировку вывода CP1251
     setlocale(LC_ALL, "Rus");    // Локализация для функций стандартной библиотеки
-    const char* path = "C:\\temp\\test.txt";
+    const char* path = "C:\\Users\\USER\\programming\\task18_03_2025_task1-2\\test.txt";
     const char* path2 = "C:\\temp\\test2.txt";
-    //count_words_starting_with(path);//Задание 1.
+    count_words_starting_with(path);//Задание 1.
     write_words(path, path2);//задание2
 
     //write_file(path);
-    //read_file(path); 
-    // 
-    //write_file2(path);     
+    //read_file(path);
+    //
+    //write_file2(path);
   /*  read_file2(path);*/
 }
 
