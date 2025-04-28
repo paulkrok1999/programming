@@ -14,6 +14,23 @@ int write_file(const char* path, const char* message) {
     return 0;
 }
 
+int read_file(const char* path) {
+    FILE* file{ nullptr };
+    errno_t e = fopen_s(&file, path, "r");
+    if (e != 0) {
+        return e;
+    }
+
+    char buffer[255];
+    while (fgets(buffer, sizeof(buffer), file) != nullptr) {
+        std::cout << buffer;
+    }
+
+    fclose(file);
+    return 0;
+}
+
+
 int main()
 {
     /*// Создаем буфер для сообщения
@@ -39,8 +56,13 @@ int main()
 
     const char* fpath = path.c_str();
     const char* ftext = text.c_str();
+    std::cout << path;
 
     int e = write_file(fpath, ftext);
+    if (e != 0) {
+        std::cerr << "Error at write_file function: " << e << "\n";
+    }
+    e = read_file(fpath);
     if (e != 0) {
         std::cerr << "Error at write_file function: " << e << "\n";
     }
