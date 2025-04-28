@@ -34,4 +34,4 @@
 [09 03 2025](https://github.com/paulkrok1999/programming/tree/main/task_09_03_2025_task1)
 
 # Задания за 18 03 2025
-[18 03 2025 Задание1-2](https://github.com/paulkrok1999/programming/tree/main/task_18_03_2025_task1-2)
+[18 03 2025 Задание1-2](https://github.com/paulkrok1999/programming/tree/main/task18_03_2025_task1-2)
