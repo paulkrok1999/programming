@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zmika", "zmika\zmika.vcxproj", "{4C2B6C70-D77B-4BAC-B3ED-FE83973E9149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C2B6C70-D77B-4BAC-B3ED-FE83973E9149}.Debug|x64.ActiveCfg = Debug|x64
+		{4C2B6C70-D77B-4BAC-B3ED-FE83973E9149}.Debug|x64.Build.0 = Debug|x64
+		{4C2B6C70-D77B-4BAC-B3ED-FE83973E9149}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C2B6C70-D77B-4BAC-B3ED-FE83973E9149}.Debug|x86.Build.0 = Debug|Win32
+		{4C2B6C70-D77B-4BAC-B3ED-FE83973E9149}.Release|x64.ActiveCfg = Release|x64
+		{4C2B6C70-D77B-4BAC-B3ED-FE83973E9149}.Release|x64.Build.0 = Release|x64
+		{4C2B6C70-D77B-4BAC-B3ED-FE83973E9149}.Release|x86.ActiveCfg = Release|Win32
+		{4C2B6C70-D77B-4BAC-B3ED-FE83973E9149}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8246818A-137D-415B-BD3C-0B05240E6991}
+	EndGlobalSection
+EndGlobal
