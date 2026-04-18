@@ -30,10 +30,10 @@
 
 [04 03 2025 Задание 2](https://github.com/paulkrok1999/programming/tree/main/task_04_03_2025_task2)
 # Задания за 10 03 2025
-[09 03 2025](https://github.com/paulkrok1999/programming/tree/main/task_10_03_2025_task1)
+[10 03 2025](https://github.com/paulkrok1999/programming/tree/main/task_10_03_2025_task1)
 
 # Задания за 09 03 2025
-[10 03 2025](https://github.com/paulkrok1999/programming/tree/main/task_09_03_2025_task1)
+[09 03 2025](https://github.com/paulkrok1999/programming/tree/main/task_09_03_2025_task1)
 
 # Задания за 16 03 2025
 [16 03 2025 Задание 1](https://github.com/paulkrok1999/programming/tree/main/task_16_03_2025_task1)
