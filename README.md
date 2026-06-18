@@ -43,3 +43,6 @@
 
 # Задания за 25 03 2025
 [25 03 2025 Задание1-2](https://github.com/paulkrok1999/programming/tree/main/task_25_03_2025)
+
+#работа за 18 06 2026
+[18 06 2026 ](https://github.com/paulkrok1999/programming/tree/main/WebApplication3)
