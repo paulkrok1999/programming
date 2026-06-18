@@ -1,0 +1,120 @@
+﻿@model Basket
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КотоГалерея — картины с котами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <!-- ========== ШАПКА ========== -->
+        <div class="header-main">
+            <div class="logotip">
+                <div>
+                    <ul>
+                        <li><img src="data:image/jpeg;base64,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" alt="Котолавка"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header_content">
+                <div class="form">
+                    <input type="text" placeholder="Найти кота или художника... 🐾">
+                    <button aria-label="Поиск">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="currentColor" d="M17.892 15.064a8 8 0 1 0-2.828 2.828l2.522 2.522a2 2 0 1 0 2.828-2.828zM11 16a5 5 0 1 1 0-10 5 5 0 0 1 0 10"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="loginform">
+                <ul>
+                    <li><button><p>😺 кабинет</p></button></li>
+                </ul>
+                <ul class="cart-icon-wrapper">
+                    <li><button><p>🧺 корзина</p></button></li>
+                    <span class="cart-count-badge">3</span>
+                </ul>
+            </div>
+        </div>
+
+        <!-- ========== КАРТОЧКИ ТОВАРОВ (КОТЫ НА КАРТИНАХ) ========== -->
+        <div class="products-grid">
+            <div class="cat-card">
+                <img src="https://placekitten.com/220/220?image=1" alt="Пушистый аристократ">
+                <h3>Кот-Барон</h3>
+                <div class="artist">🎨 Мурр Ван Гог</div>
+                <div class="price">2 990 ₽</div>
+                <button class="add-to-cart">➕ В корзину</button>
+            </div>
+            <div class="cat-card">
+                <img src="https://placekitten.com/220/220?image=2" alt="Джазовый кот">
+                <h3>Усатый джаз</h3>
+                <div class="artist">🎷 Котон Монте</div>
+                <div class="price">3 450 ₽</div>
+                <button class="add-to-cart">➕ В корзину</button>
+            </div>
+
+        </div>
+
+        <!-- ========== БЛОК КОРЗИНЫ (ДЕМО-ВЕРСИЯ) ========== -->
+        <div class="korsina" id="korsina">
+            <div class="cart-header">
+                <h2>🧶 Корзина · Котошедевры</h2>
+                <button class="clear-cart-btn">🗑️ Очистить</button>
+            </div>
+            <div class="cart-items-list">
+                <div class="cart-item">
+                    <div class="cart-item-info">
+                        <img class="cart-item-img" src="https://placekitten.com/70/70?image=1" alt="Кот-Барон">
+                        <span class="cart-item-title">Кот-Барон <span style="font-size:0.75rem; color:#b97f4b;">(Мурр Ван Гог)</span></span>
+                    </div>
+                    <div class="cart-item-price">2 990 ₽</div>
+                    <div class="item-quantity-control">
+                        <button aria-label="уменьшить">−</button>
+                        <span class="item-quantity">1</span>
+                        <button aria-label="увеличить">+</button>
+                    </div>
+                    <button class="remove-item" aria-label="удалить">✖</button>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item-info">
+                        <img class="cart-item-img" src="https://placekitten.com/70/70?image=2" alt="Усатый джаз">
+                        <span class="cart-item-title">Усатый джаз <span style="font-size:0.75rem;">(Котон Монте)</span></span>
+                    </div>
+                    <div class="cart-item-price">3 450 ₽</div>
+                    <div class="item-quantity-control">
+                        <button>−</button>
+                        <span class="item-quantity">2</span>
+                        <button>+</button>
+                    </div>
+                    <button class="remove-item">✖</button>
+                </div>
+                <div class="cart-item">
+                    <div class="cart-item-info">
+                        <img class="cart-item-img" src="https://placekitten.com/70/70?image=5" alt="Золотой глаз">
+                        <span class="cart-item-title">Золотой глаз <span style="font-size:0.75rem;">(Рыжий Рембрандт)</span></span>
+                    </div>
+                    <div class="cart-item-price">5 200 ₽</div>
+                    <div class="item-quantity-control">
+                        <button>−</button>
+                        <span class="item-quantity">1</span>
+                        <button>+</button>
+                    </div>
+                    <button class="remove-item">✖</button>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <div class="total-price">💰 Итого: 13 640 ₽</div>
+                <button class="checkout-btn">🐱 Оформить заказ</button>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 32px;">
+            <div class="demo-note">
+                🐾 Демо-версия: корзина показывает пример содержания (только HTML/CSS)
+            </div>
+        </div>
+    </div>
+</body>
+</html>

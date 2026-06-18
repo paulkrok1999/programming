@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Backid.cs" />
     <Compile Include="ApplicationContext.cs" />
+    <Compile Include="BaskidRepos.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />

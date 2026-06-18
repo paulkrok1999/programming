@@ -12,5 +12,9 @@ namespace ConsoleApp6
         public int UserId {  get; set; }
         public User User { get; set; }
         public List<Product> products { get; set; }
+        public int Count{get{return products.Count;}}
+        public double Price { get { return products.Sum(i => i.Prise); } }
+        static int countid = 0;
+        public Baskid() { countid++; countid; }
     }
 }

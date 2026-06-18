@@ -6,4 +6,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\basked\index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\basked\index.cshtml" />
+  </ItemGroup>
+
 </Project>
