@@ -1,0 +1,45 @@
+img {
+    width: 75px;
+    heinght: 75px;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+    gap: 20px;
+}
+
+div, ul {
+    display: flex;
+    align-items: center;
+}
+
+.contenner {
+    justify-content: space-between;
+    background-color: red;
+}
+
+.container, p, h1, conterniti {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    margin: 1.6em 20px;
+}
+
+.conterniti {
+    display: flex;
+    gap: 20px;
+}
+
+.block {
+    width: 25%;
+    height: 150px;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
